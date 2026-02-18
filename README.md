@@ -4,8 +4,6 @@ QuizCreator is a modular quiz generation system that separates content, transfor
 
 Quiz data is authored in Excel, transformed into structured JSON, cleaned and injected into JavaScript, and then rendered dynamically in the browser.
 
-The goal is simple:
-
 - Keep quiz content editable outside code
 - Keep transformation logic modular
 - Keep the frontend data-driven
@@ -45,8 +43,6 @@ Every update follows the same predictable pipeline:
 1. Enter questions in Excel
 2. Run transformation script
 3. Open the quiz in the browser
-
-No manual editing of HTML or JavaScript is required.
 
 ---
 
@@ -165,8 +161,6 @@ IMPORT_CFG['excel_file']
 
 The system adapts automatically.
 
-No frontend logic changes required.
-
 ---
 
 ## Architecture Principles
@@ -177,10 +171,6 @@ No frontend logic changes required.
 - Predictable pipeline behaviour
 - No embedded quiz logic inside HTML
 - Clear separation of content, transformation, and rendering
-
-Large all-in-one scripts are intentionally avoided.
-
-Each stage performs one clear transformation.
 
 ---
 
