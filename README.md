@@ -209,3 +209,10 @@ http://localhost:8000
 ```
 
 Or open `index.html` directly in a browser.
+
+
+## License
+
+MIT License.
+
+Anyone is free to use, modify, distribute, or improve this code.
