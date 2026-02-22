@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (button) {
         button.style.display = 'inline-block';
         button.onclick = () => {
-          window.location.href = 'Index.html';
+          window.location.href = 'index.html';
         };
       }
     });
